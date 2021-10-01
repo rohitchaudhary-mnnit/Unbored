@@ -1,0 +1,14 @@
+{
+    "name" : "UnBored",
+    "version" : "0.0.1",
+    "manifest_version" : 2,
+    "description": "It'll suggest you a random but productive task whenever you feel bored.",
+    "browser_action" : {
+        "default_popup": "index.html",
+        "default_icon": "unbored.png"
+    },
+    "icons":{
+        "256":"unbored.png"
+    },
+    "permissions" : ["activeTab"]
+}
